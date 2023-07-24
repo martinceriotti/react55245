@@ -1,5 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
+import { Link } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
 
 export const Header = () => {
@@ -8,16 +9,22 @@ export const Header = () => {
       <Row className="">
         <Nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Nav.Item>
-            <Nav.Link href="#"> Menu 1 </Nav.Link>
+            <Link className="nav-link" to="/"> Inicio </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#">Menu 2</Nav.Link>
+            <Link className="nav-link" to="/productos/electronics">Electronica</Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#">Menu 3</Nav.Link>
+            <Link className="nav-link"  to="/productos/jewelery">Joyas</Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#">Menu 4</Nav.Link>
+            <Link className="nav-link"  to="/productos/men's clothing">Ropa Masculina</Link> 
+          </Nav.Item>
+          <Nav.Item>
+            <Link className="nav-link"  to="/productos/women's clothing">Ropa Femenina</Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link className="nav-link" to="Contacto">Contacto</Link>
           </Nav.Item>
           <Nav.Item>
             <div className="container">
