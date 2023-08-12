@@ -29,7 +29,7 @@ export const Header = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Link Name="nav-link" to="/productos/men's clothing">
+            <Link className="nav-link" to="/productos/men's clothing">
               Ropa Masculina
             </Link>
           </Nav.Item>
