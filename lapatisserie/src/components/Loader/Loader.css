@@ -1,0 +1,10 @@
+.loader {
+    background-color: rgba(192, 198, 204, 0.5);
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
